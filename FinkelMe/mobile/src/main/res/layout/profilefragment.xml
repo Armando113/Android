@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_cardBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                card_view:cardBackgroundColor="@color/light_grey"
+                card_view:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/profile_profpicIV"
+                        android:layout_width="226dp"
+                        android:layout_height="226dp"
+                        android:maxWidth="268dp"
+                        android:maxHeight="268dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/place_holder_lancast"
+                        android:contentDescription="@string/profile_profpicIV_string"/>
+
+                    <TextView
+                        android:id="@+id/profile_nameTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/profile_nameTV_string"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/onyx"/>
+
+                    <TextView
+                        android:id="@+id/profile_addressTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/profile_addressTV_string"
+                        android:textSize="18sp"
+                        android:textColor="@color/onyx"/>
+
+                    <TextView
+                        android:id="@+id/profile_phoneTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/profile_phoneTV_string"
+                        android:textSize="18sp"
+                        android:textColor="@color/onyx"/>
+
+                    <TextView
+                        android:id="@+id/profile_emailTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/profile_emailTV_string"
+                        android:textSize="18sp"
+                        android:textColor="@color/onyx"/>
+
+                    <TextView
+                        android:id="@+id/profile_professionTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/profile_professionTV_string"
+                        android:textSize="18sp"
+                        android:textColor="@color/onyx"/>
+
+                    <TextView
+                        android:id="@+id/profile_companyTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/profile_companyTV_string"
+                        android:textSize="18sp"
+                        android:textColor="@color/onyx"/>
+
+                    <TextView
+                        android:id="@+id/profile_websiteTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/profile_websiteTV_string"
+                        android:textSize="18sp"
+                        android:textColor="@color/onyx"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/profile_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="start"
+                android:text="@string/profile_mycardsTV_string"
+                android:textColor="@color/bright_green"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <!--<android.support.v7.widget.RecyclerView
+                android:id="@+id/profile_mycardsRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="15dp"
+                android:scrollbars="horizontal"/>-->
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

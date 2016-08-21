@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">FinkelMe</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <!--Toolbar resources-->
+    <string name="toolbar_settings_string">Settings</string>
+    <string name="toolbar_search_string">Search Finkel</string>
+    <string name="toolbar_newcard_string">Create New Card</string>
+    <string name="toolbar_drawer_string">Main Menu</string>
+
+    <!--Navigation Drawer resources-->
+    <string name="navdrawer_titleTV_string">Main Menu</string>
+    <string name="navdrawer_profileTV_string">Profile</string>
+    <string name="navdrawer_collectionTV_string">Collection</string>
+    <string name="navdrawer_inboxTV_string">Inbox</string>
+    <string name="navdrawer_settingsTV_string">Settings</string>
+    <string name="navdrawer_helpTV_string">Help</string>
+    <string name="navdrawer_aboutTV_string">About FinkelMe</string>
+
+    <!--Search Filter resources-->
+    <string name="searchfilter_titleTV_string">Search Filters</string>
+    <string name="searchfilter_searchInTV_string">Search in:</string>
+    <string name="searchfilter_myCollectionRBN_string">My Collection</string>
+    <string name="searchfilter_myInboxRBN_string">My Inbox</string>
+    <string name="searchfilter_worldwideRBN_string">Worldwide</string>
+    <string name="searchfilter_filterByTV_string">Filter by:</string>
+    <string name="searchfilter_nameFilterCBX_string">Name</string>
+    <string name="searchfilter_emailFilterCBX_string">Email</string>
+    <string name="searchfilter_phoneFilterCBX_string">Phone Numbers</string>
+    <string name="searchfilter_addressFilterCBX_string">Address</string>
+    <string name="searchfilter_professionFilterCBX_string">Profession</string>
+    <string name="searchfilter_companyFilterCBX_string">Company</string>
+    <string name="searchfilter_websiteFilterCBX_string">Websites</string>
+    <string name="searchfilter_orderByTV_string">Order By:</string>
+    <string name="searchfilter_ascendingRBN_string">Ascending</string>
+    <string name="searchfilter_descendingRBN_string">Descending</string>
+
+    <!--Finkel Card Resources-->
+    <string name="finkelcard_fullNameTV_string">Full Name</string>
+    <string name="finkelcard_emailTV_string">E-Mail</string>
+    <string name="finkelcard_addressTV_string">Address</string>
+    <string name="finkelcard_phoneTV_string">Phone Numbers</string>
+    <string name="finkelcard_professionTV_string">Profession</string>
+    <string name="finkelcard_companyTV_string">Company</string>
+    <string name="finkelcard_websiteTV_string">Website</string>
+
+    <!--Login Resources-->
+    <string name="login_usernameET_string">Username or Email</string>
+    <string name="login_passwordET_string">Password</string>
+    <string name="login_loginBTN_string">Login</string>
+    <string name="login_registerBTN_string">Sign Up</string>
+    <string name="login_forgetTV_string">Forgot Password?</string>
+
+    <!--Register resources-->
+    <string name="register_emailET_string">Insert Email</string>
+    <string name="register_passwordET_string">Insert Password</string>
+    <string name="register_repassET_string">Confirm Password</string>
+    <string name="register_titleTV_string">Create an Account for FinkelMe</string>
+    <string name="register_eulaCBX_string">I agree to the EULA</string>
+    <string name="register_confirmBTN_string">Sign Up!</string>
+    <string name="register_eulaTV_string">View EULA</string>
+
+    <!--Profile resources-->
+    <string name="profile_profpicIV_string">Profile Picture</string>
+    <string name="profile_nameTV_string">Full Name</string>
+    <string name="profile_addressTV_string">Address</string>
+    <string name="profile_phoneTV_string">Phone Numbers</string>
+    <string name="profile_professionTV_string">Profession</string>
+    <string name="profile_companyTV_string">Company</string>
+    <string name="profile_websiteTV_string">Website</string>
+    <string name="profile_mycardsTV_string">My Business Cards</string>
+    <string name="profile_emailTV_string">E-Mail</string>
+
+
+    <!--Miscellaneous Resources-->
+    <string name="finkelRV_separator_string">Separator String</string>
+
+
+</resources>

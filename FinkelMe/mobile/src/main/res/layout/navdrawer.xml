@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/finkel_navDrawer"
+    android:scrollbars="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/onyx">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/navdrawer_titleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="80dp"
+            android:text="@string/navdrawer_titleTV_string"
+            android:textColor="@color/bright_green"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/light_grey"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <TableRow
+                android:id="@+id/navdrawer_profilerow"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:id="@+id/navdrawer_profileIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_action_person"/>
+
+                <TextView
+                    android:id="@+id/navdrawer_profileTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/navdrawer_profileTV_string"
+                    android:textColor="@color/light_grey"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/navdrawer_collectionrow"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/navdrawer_collectionIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_action_collection"/>
+
+                <TextView
+                    android:id="@+id/navdrawer_collectionTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/navdrawer_collectionTV_string"
+                    android:textColor="@color/light_grey"
+                    android:textSize="20sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/navdrawer_inboxrow"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/navdrawer_inboxIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_action_email"/>
+
+                <TextView
+                    android:id="@+id/navdrawer_inboxTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/navdrawer_inboxTV_string"
+                    android:textColor="@color/light_grey"
+                    android:textSize="20sp"/>
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/light_grey"/>
+
+            <TableRow
+                android:id="@+id/navdrawer_settingsrow"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/navdrawer_settingsIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_action_settings"/>
+
+                <TextView
+                    android:id="@+id/navdrawer_settingsTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/navdrawer_settingsTV_string"
+                    android:textColor="@color/light_grey"
+                    android:textSize="20sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/navdrawer_helprow"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/navdrawer_helpIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_action_help"/>
+
+                <TextView
+                    android:id="@+id/navdrawer_helpTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/navdrawer_helpTV_string"
+                    android:textColor="@color/light_grey"
+                    android:textSize="20sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/navdrawer_aboutrow"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/navdrawer_aboutIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_action_about"/>
+
+                <TextView
+                    android:id="@+id/navdrawer_aboutTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/navdrawer_aboutTV_string"
+                    android:textColor="@color/light_grey"
+                    android:textSize="20sp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/FinkelToolbarStyle</item>
+        <item name="colorControlActivated">@color/bright_green</item>
+        <item name="colorControlHighlight">@color/onyx</item>
+    </style>
+
+    <style name="FinkelToolbarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/FinkelToolbarTextStyle</item>
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:editTextColor">@color/onyx</item>
+        <item name="android:actionOverflowButtonStyle">@style/FinkelToolbarOverflowStyle</item>
+        <item name="android:textColorSecondary">@color/onyx</item>
+        <item name="android:textColorHint">@color/onyx</item>
+    </style>
+    <style name="FinkelToolbarTextStyle">
+        <item name="android:textColor">@color/onyx</item>
+    </style>
+    <style name="FinkelToolbarOverflowStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:color">@color/onyx</item>
+        <item name="android:src">@mipmap/ic_action_overflow</item>
+    </style>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/register_titleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="@string/register_titleTV_string"
+        android:textColor="@color/bright_green"/>
+
+    <EditText
+        android:id="@+id/register_emailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/register_emailET_string"/>
+
+    <EditText
+        android:id="@+id/register_passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="textPassword"
+        android:hint="@string/register_passwordET_string"/>
+
+    <EditText
+        android:id="@+id/register_repassET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="textPassword"
+        android:hint="@string/register_repassET_string"/>
+
+    <TextView
+        android:id="@+id/register_eulaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/register_eulaTV_string"
+        android:textColor="@color/bright_green"
+        android:textStyle="italic"/>
+
+    <CheckBox
+        android:id="@+id/register_eulaCBX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/register_eulaCBX_string"/>
+
+    <Button
+        android:id="@+id/register_confirmBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/register_confirmBTN_string"/>
+
+</LinearLayout>
