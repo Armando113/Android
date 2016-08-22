@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Web Service Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="translate_fromET_string">Text to translate</string>
+    <string name="translate_toTV_string">Result</string>
+    <string name="translate_btn_string">Translate</string>
+    <string name="translate_error">(Translation error)</string>
+
+</resources>

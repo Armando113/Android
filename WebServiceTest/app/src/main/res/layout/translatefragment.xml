@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/translate_fromSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/languages"/>
+
+        <EditText
+            android:id="@+id/translate_fromET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/translate_fromET_string"/>
+
+        <Spinner
+            android:id="@+id/translate_toSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/languages"/>
+
+        <TextView
+            android:id="@+id/translate_toTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/translate_toTV_string"/>
+
+        <Button
+            android:id="@+id/translate_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/translate_btn_string"/>
+
+        <TextView
+            android:id="@+id/translate_access"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/translate_toTV_string"/>
+
+    </LinearLayout>
+
+</LinearLayout>
